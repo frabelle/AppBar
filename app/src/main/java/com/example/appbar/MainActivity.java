@@ -47,9 +47,6 @@ public class MainActivity extends AppCompatActivity{
         }else if (id == R.id.search) {
             Toast.makeText(getApplicationContext(), "Seleccionasteeeee la opción de Buscar",
                     Toast.LENGTH_SHORT).show();
-        }else if (id == R.id.ajustes) {
-            Toast.makeText(getApplicationContext(), "Seleccionaste Ajustes",
-                    Toast.LENGTH_SHORT).show();
         }
 
         return true;
