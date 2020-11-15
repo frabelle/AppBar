@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Compartir"
+        android:id="@+id/share"
+        />
+
+    <item
+        android:title="Acerca de"
+        android:id="@+id/aboutus"
+        />
+
+    <item
+        android:title="Salir"
+        android:id="@+id/exit"
+        />
+
+    <item
+        android:title="Buscar"
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="Ajustes"
+        android:id="@+id/ajustes"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="always"/>
+
+</menu>
